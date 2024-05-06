@@ -1,0 +1,60 @@
+[{
+            "id": "1",
+            "name": "Potato__Late_blight:"
+            
+    },
+    {
+            "id": "2",
+            "name": "Potato___Early_blight:"
+    },
+    {
+            "id": "3",
+            "name": "BellPepper__Bacterial_spot:"
+            
+    },
+    {
+            "id": "4",
+            "name": "Tomato_Bacterial_spot:"
+            
+    },
+    {
+            "id": "5",
+            "name": "Tomato_Early_blight:"
+            
+    },
+    {
+            "id": "6",
+            "name": "Tomato_Late_blight:"
+            
+    },
+    {
+            "id": "7",
+            "name": "Tomato_Leaf_Mold:"
+            
+    },
+    {
+            "id": "8",
+            "name": "Tomato_Septoria_leaf_spot:"
+            
+    },
+    {
+            "id": "9",
+            "name": "Tomato_Spider_mites:"
+            
+    },
+    {
+            "id": "10",
+            "name": "Tomato__Target_Spot:"
+            
+    },
+    {
+            "id": "11",
+            "name": "Tomato_Tomato_YellowLeaf_Curl_Virus:"
+            
+    },
+    {
+            "id": "12",
+            "name": "Tomato_mosaic_virus:"
+            
+    }
+]
