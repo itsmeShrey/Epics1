@@ -21,18 +21,17 @@ const BackImg = () => {
       }}
     >
       <div className='imgsection'>
+        
         <div className='imgtext'>
           <h2 className='intro'><b>YOUR CROP DOCTOR</b></h2>
         </div>
         <div className='imgtext'>
-          <p>Crop disease detection made easy <br />Join Us Today!</p>
+          <p className='middle'>Crop disease detection made easy <br />Join Us Today!</p>
         </div>
       </div>
       <p className='text1'>Empowering Agriculture Through Precision Detection and Timely Solutions <br />
-        <LinkRoll to="https://leetcode.com/zeus20/"><Button>Disease Prediction</Button></LinkRoll> <br />
-        <LinkRoll to=""><Button>Crops prediction</Button></LinkRoll><br/>
-        <LinkRoll to='https://leetcode.com/zeus20/'><button onClick={handleClick}>Random Button</button></LinkRoll>
-        {/* <LinkRoll to='./garvitasapp3.0/index'></LinkRoll> */}
+        <LinkRoll to=""><Button>Disease Prediction</Button></LinkRoll> <br />
+        <LinkRoll to=""><Button>Crops prediction</Button></LinkRoll>
       </p>
       {/* <Router>
         <Routes>
