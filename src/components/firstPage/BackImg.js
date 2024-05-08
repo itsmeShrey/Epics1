@@ -1,14 +1,12 @@
 import React from 'react';
 import './BackImg.css';
-import backgroundImage from '../images/pic1.jpg';
+import backgroundImage from '../images/pic3.jpg';
 import { Link as LinkRoll,Button } from 'react-scroll';
 // import MainPage from '../secondPage/Main';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import "../secondPage/Main"
 
-  const handleClick = () => {
-    // Redirect to Page 2
-    window.location.href ='https://epics-chi.vercel.app/';
-  };
+
 
 const BackImg = () => {
   return (
@@ -37,8 +35,34 @@ const BackImg = () => {
         <Routes>
           <Route path="/secondPage/mmain" element={<MainPage />} />
         </Routes>
-      </Router>
-       */}
+      </Router> */}
+
+     {/* <Link to="/secondPage/Main"><button>Main</button></Link> */}
+
+             {/* <Router>
+                <div>
+                  <nav>
+                   
+                    <ul>
+                      <li>
+                        <Link to="/secondPage/Main">Main</Link>
+                      </li>
+                    </ul>
+                  </nav>
+          
+                
+                  <Routes>
+                    <Route exact path="/" element={<BackImg />} /> 
+                    <Route exact path="/secondPage/Main" element={<MainPage />} />
+                  </Routes> 
+                </div>
+              </Router> */}
+
+
+
+
+
+
     </div>
   );
 };
