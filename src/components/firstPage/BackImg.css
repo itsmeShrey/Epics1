@@ -20,7 +20,7 @@
 }
 .intro{
     text-align: center;
-    margin:10px;
+    margin:20px;
     padding-top: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -47,11 +47,12 @@
 button {
     font-weight: 900;
     width: 200px;
+    height: 50px;
     margin-top: 20px;
 }
 
 button:hover {
-    border: 1px solid #fff; /* Adjusted to include '1px' for the border size */
+    border: 2px solid #fff; /* Adjusted to include '1px' for the border size */
 }
 
 
