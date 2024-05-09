@@ -14,6 +14,10 @@ const BackImg = () => {
         // Redirect to adi's Page 
         window.location.href = 'https://croppy-5jfybdjr2pmtedzo5k4etx.streamlit.app/';
     };
+   const handleClick2 = () => {
+        // Redirect to adi's Page 
+        window.location.href = 'https://plant-disease-classification-seven.vercel.app/';
+    };
 
 
   
@@ -36,7 +40,7 @@ const BackImg = () => {
         </div>
       </div>
       <p className='text1'>Empowering Agriculture Through Precision Detection and Timely Solutions <br />
-        <LinkRoll to=""><Button>Disease Prediction</Button></LinkRoll> <br />
+        <LinkRoll to=""><Button onClick={handleClick2}>Disease Prediction</Button></LinkRoll> <br />
         <LinkRoll to=""><Button onClick={handleClick}>Crops prediction</Button></LinkRoll>
       </p>
       {/* <Router>
