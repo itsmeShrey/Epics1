@@ -9,6 +9,14 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 
 const BackImg = () => {
+
+   const handleClick = () => {
+        // Redirect to adi's Page 
+        window.location.href = 'https://croppy-5jfybdjr2pmtedzo5k4etx.streamlit.app/';
+    };
+
+
+  
   return (
     <div
       style={{
@@ -29,7 +37,7 @@ const BackImg = () => {
       </div>
       <p className='text1'>Empowering Agriculture Through Precision Detection and Timely Solutions <br />
         <LinkRoll to=""><Button>Disease Prediction</Button></LinkRoll> <br />
-        <LinkRoll to=""><Button>Crops prediction</Button></LinkRoll>
+        <LinkRoll to=""><Button onClick={handleClick}>Crops prediction</Button></LinkRoll>
       </p>
       {/* <Router>
         <Routes>
